@@ -6,3 +6,15 @@
   margin: auto;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 999px) {
+  .lead {
+  padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 665px)  {
+  .lead {
+    padding-bottom: 64px;
+  }
+}
