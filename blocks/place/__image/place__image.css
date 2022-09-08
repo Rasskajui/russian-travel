@@ -1,0 +1,11 @@
+.place__image {
+  object-fit: cover;
+  width: 100%;
+  grid-column: 1/2;
+}
+
+@media screen and (max-width: 665px) {
+  .place__image {
+    grid-row: 3/4;
+  }
+}
