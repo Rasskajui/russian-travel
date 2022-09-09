@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Russian Travel</title>
+    <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
@@ -12,8 +12,8 @@
   <header class="header" aria-label="Шапка страницы">
     <img src="./images/header/logo.svg" alt="Логотип" class="header__logo">
     <ul class="header__links">
-      <li><a href="#" class="header__link header__link_mode_active">Ru</a></li>
-      <li><a href="#" class="header__link">En</a></li>
+      <li><a href="#" class="header__link header__link_active link">Ru</a></li>
+      <li><a href="#" class="header__link link">En</a></li>
     </ul>
   </header>
 
@@ -22,10 +22,7 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image-container">
-        <img src="./images/lead/lead-img.png" alt="Ваша полка - верхняя" class="lead__image">
-        <img src="./images/lead/lead-decoration.svg" alt="Декоративная карта" class="lead__image-decoration">
-      </div>
+      <img src="./images/lead/lead-image.jpg" alt="Женщина спит в поезде и вокруг неё нарисована карта" class="lead__image">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
@@ -126,21 +123,24 @@
     </section>
 
     <section class="cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank"></a>
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </a>
     </section>
 
   </main>
 
   <footer class="footer" aria-label="Подвал сайта">
-    <ul class="footer__links">
-      <li><a href="https://yandex.ru/maps" class="footer__link link" target="_blank">Карты</a></li>
-      <li><a href="https://yandex.ru/pogoda" class="footer__link link" target="_blank">Погода</a></li>
-      <li><a href="https://rasp.yandex.ru" class="footer__link link" target="_blank">Расписание</a></li>
-      <li><a href="https://calendar.yandex.ru" class="footer__link link" target="_blank">Календарь</a></li>
-      <li><a href="https://travel.yandex.ru" class="footer__link link" target="_blank">Путешествия</a></li>
-    </ul>
+    <nav>
+      <ul class="footer__links">
+        <li><a href="https://yandex.ru/maps" class="footer__link link" target="_blank">Карты</a></li>
+        <li><a href="https://yandex.ru/pogoda" class="footer__link link" target="_blank">Погода</a></li>
+        <li><a href="https://rasp.yandex.ru" class="footer__link link" target="_blank">Расписание</a></li>
+        <li><a href="https://calendar.yandex.ru" class="footer__link link" target="_blank">Календарь</a></li>
+        <li><a href="https://travel.yandex.ru" class="footer__link link" target="_blank">Путешествия</a></li>
+      </ul>
+    </nav>
     <p class="footer__copyright">&#169; 2020. Надежда Латышева</p>
   </footer>
 

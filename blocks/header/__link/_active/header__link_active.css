@@ -1,10 +1,10 @@
-.header__link_mode_active {
+.header__link_active {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
 
 @media screen and (max-width: 665px) {
-  .header__link_mode_active {
+  .header__link_active {
     text-underline-offset: 3.5px;
   }
 }
